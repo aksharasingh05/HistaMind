@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HistaMind - Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--card-bg);">
+    <div class="top-nav-wrapper">
+        <nav class="top-nav">
+            <div class="logo-area">
+                <a href="javascript:history.back()" style="color: var(--text-main); font-size: 20px;"><i class="fa-solid fa-arrow-left"></i></a>
+                <i class="fa-solid fa-shield-halved"></i> HistaMind
+            </div>
+        </nav>
+    </div>
+
+    <div class="content" style="display: flex; align-items: center; justify-content: center;">
+        <div class="login-box">
+            <div class="logo-large">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h1 style="margin: 0; font-size: 32px;">Welcome Back</h1>
+            <p style="color: var(--text-muted); margin-top: 10px;">Sign in to access your allergy shield</p>
+
+            <form action="index.html" class="form-container">
+                <div class="input-group">
+                    <label>Email</label>
+                    <div class="input-wrapper">
+                        <i class="fa-regular fa-envelope left"></i>
+                        <input type="email" placeholder="akshara@example.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock left"></i>
+                        <input type="password" placeholder="••••••••" required>
+                        <i class="fa-regular fa-eye right"></i>
+                    </div>
+                </div>
+
+                <div style="text-align: right; margin-bottom: 30px;">
+                    <a href="#" style="color: var(--primary); text-decoration: none; font-size: 14px; font-weight: 600; transition: color 0.2s;">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn-primary">Sign In</button>
+            </form>
+            
+            <p style="color: var(--text-muted); font-size: 14px; margin-top: 40px; position: relative;">
+                <span style="background: var(--card-bg); padding: 0 10px; position: relative; z-index: 1;">Or continue with</span>
+                <span style="position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: #e5e7eb; z-index: 0;"></span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
